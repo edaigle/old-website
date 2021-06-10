@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+/*
+-- Header + Navigation --
+*/
+
+header {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 2rem;
+    min-height: 100%;
+    background-color: #18020C;
+    color: #F2E9DC;
+}
+
+header h1 {
+    display: inline-block;
+    text-align: left;
+}
+
+header nav {
+    float: right;
+    font-size: 1.8rem;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+/*
+-- Intro and Projects --
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2E9DC;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #18020C;
+}
+
+.projects-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro {
+    align-self: flex-start;
+    margin-left: 1em;
+    width: 65vw;
+}
+
+.project {
+    display: flex;
+    border: solid #18020C;
+    border-radius: 1em;
+    margin: 1em;
+    padding: 1em;
+    width: 50vw;
+}
+
+.project-logo {
+    margin-right: 1em;
+    object-fit: contain;
+}
