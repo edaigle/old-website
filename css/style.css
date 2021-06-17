@@ -33,7 +33,7 @@ li {
     margin: 0.1em;
 }
 
-a {
+header a {
     color: #F2E9DC;
 }
 
@@ -97,6 +97,20 @@ body {
     margin: 1em;
     padding: 1em;
     width: 50vw;
+}
+
+h3 a {
+    color: #18020C;
+}
+
+img {
+    width: 15em
+    height: 15em;
+    padding: 1em;
+}
+
+.favicon {
+    border: 1px #18020C;
 }
 
 .project-logo {
